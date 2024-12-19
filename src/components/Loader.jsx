@@ -1,9 +1,9 @@
-import Styles from "./Loader.module.css";
-import { RotatingLines } from "react-loader-spinner";
+import Styles from './Loader.module.css';
+import { RotatingLines } from 'react-loader-spinner';
 const Loader = () => {
   return (
     <div className={Styles.circleLoad}>
-      <RotatingLines
+        <RotatingLines
         visible={true}
         height="96"
         width="96"
@@ -14,9 +14,9 @@ const Loader = () => {
         ariaLabel="rotating-lines-loading"
         wrapperStyle={{}}
         wrapperClass=""
-      />
+        />
     </div>
-  );
-};
+  )
+}
 
-export default Loader;
+export default Loader
